@@ -1,8 +1,4 @@
 def fib_recursive_count(n):
-    """
-    Computes Fibonacci recursively and counts the number of function calls.
-    Returns (result, call_count).
-    """
     count = 0
 
     def helper(k):
@@ -17,10 +13,6 @@ def fib_recursive_count(n):
 
 
 def fib_dp_count(n):
-    """
-    Computes Fibonacci with memoization and counts calls.
-    Returns (result, call_count).
-    """
     count = 0
     memo = {}
 
